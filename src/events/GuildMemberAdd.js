@@ -1,4 +1,5 @@
 const { Events, EmbedBuilder } = require("discord.js");
+require("dotenv").config();
 const { channelID } = require("../../config.json");
 
 module.exports = {
