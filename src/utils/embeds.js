@@ -7,7 +7,6 @@ function welcomeMessage(member) {
     .setDescription(`Hey ${member}, welcome to our awesome Discord server!`)
     .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
     .setFooter({ text: `Joined at ${member.joinedAt.toLocaleString()}` });
-
   return embed;
 }
 
