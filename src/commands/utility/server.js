@@ -27,6 +27,10 @@ module.exports = {
               ? `https://discord.gg/${interaction.guild.vanityURLCode}`
               : "None",
           })
+          .addFields({
+            name: "Server Owner",
+            value: "<@866694286006288395>"
+          })
           .setTimestamp()
           .setFooter({
             text: "Chatmandu Bot",
