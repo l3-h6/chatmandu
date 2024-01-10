@@ -1,25 +1,9 @@
-const { Events, ActivityType } = require("discord.js");
+const { Events, ActivityType  } = require("discord.js");
 
 let status = [
   {
     name: ".gg/chatmandu",
     type: ActivityType.Watching,
-  },
-  {
-    name: "the game she played with me",
-    type: ActivityType.Playing,
-  },
-  {
-    name: "with your mom",
-    type: ActivityType.Playing,
-  },
-  {
-    name: "with her boobies",
-    type: ActivityType.Playing,
-  },
-  {
-    name: "Killing in the Name of",
-    type: ActivityType.Listening,
   },
 ];
 

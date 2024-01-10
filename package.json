@@ -18,6 +18,7 @@
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "eslint": "^8.56.0",
     "nodemon": "^3.0.1"
   }
 }
