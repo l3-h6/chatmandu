@@ -1,0 +1,75 @@
+{
+  "6sxj88": {
+    "id": "6sxj88",
+    "title": "abc",
+    "description": "abc",
+    "emoji": "🗳️",
+    "options": [
+      {
+        "id": 4,
+        "text": "chakmandu",
+        "originalText": "<@1421553483026268310>",
+        "emoji": null,
+        "votes": 1
+      },
+      {
+        "id": 1,
+        "text": "Zzz",
+        "originalText": "<@563259207743438870>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 2,
+        "text": "Lord [Bot]",
+        "originalText": "<@853297883382153239>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 3,
+        "text": "anonymous",
+        "originalText": "<@691168951035494452>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 5,
+        "text": "MujikBot",
+        "originalText": "<@990018326216450148>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 6,
+        "text": "Chatmandu",
+        "originalText": "<@1176121220614340668>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 7,
+        "text": "kiee",
+        "originalText": "<@866694286006288395>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 8,
+        "text": "kwek",
+        "originalText": "<@1410685210634227794>",
+        "emoji": null,
+        "votes": 0
+      }
+    ],
+    "duration": 259200000,
+    "endTime": 1759052074643,
+    "createdAt": 1759052043408,
+    "active": false,
+    "ended": true,
+    "publicMessageId": null,
+    "publicChannelId": null,
+    "creatorId": "853297883382153239",
+    "guildId": "1176117064935669771"
+  }
+}
