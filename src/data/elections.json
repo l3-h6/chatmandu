@@ -71,5 +71,78 @@
     "publicChannelId": null,
     "creatorId": "853297883382153239",
     "guildId": "1176117064935669771"
+  },
+  "yi72cb": {
+    "id": "yi72cb",
+    "title": "ABC",
+    "description": "Elecetion for the PM and M roles",
+    "emoji": "🔥 , 😆 , 👍 , 👎 , ❤️ , <:bolt:1362825080832266441> , 🆗 , 🥺",
+    "options": [
+      {
+        "id": 1,
+        "text": "Zzz",
+        "originalText": "<@563259207743438870>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 2,
+        "text": "anonymous",
+        "originalText": "<@691168951035494452>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 3,
+        "text": "kiee",
+        "originalText": "<@866694286006288395>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 4,
+        "text": "Lord [Bot]",
+        "originalText": "<@853297883382153239>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 5,
+        "text": "chakmandu",
+        "originalText": "<@1421553483026268310>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 6,
+        "text": "Chatmandu",
+        "originalText": "<@1176121220614340668>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 7,
+        "text": "MujikBot",
+        "originalText": "<@990018326216450148>",
+        "emoji": null,
+        "votes": 0
+      },
+      {
+        "id": 8,
+        "text": "kwek",
+        "originalText": "<@1410685210634227794>",
+        "emoji": null,
+        "votes": 0
+      }
+    ],
+    "duration": 259200000,
+    "endTime": 1759311583078,
+    "createdAt": 1759052383078,
+    "active": true,
+    "ended": false,
+    "publicMessageId": null,
+    "publicChannelId": null,
+    "creatorId": "853297883382153239",
+    "guildId": "1176117064935669771"
   }
 }

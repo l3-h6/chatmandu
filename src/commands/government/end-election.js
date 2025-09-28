@@ -197,10 +197,40 @@ module.exports = {
       elections.set(electionId, election);
       saveElections(elections);
       
+      // Send confirmation to command user
       await interaction.followUp({ 
-        content: `✅ Election ended successfully!\n\n👑 **Prime Minister:** ${results.primeMinister ? results.primeMinister.text : 'None'}\n🏛️ **Ministers:** ${results.ministers.length} selected\n📊 **Total Votes:** ${results.totalVotes}`, 
+        content: `✅ Election ended successfully! Public results have been posted.`, 
         ephemeral: true 
       });
+
+      // Send public summary to the channel
+      const publicSummary = new EmbedBuilder()
+        .setColor("#00FF00")
+        .setTitle("🏛️ Election Ended Early")
+        .setDescription(`**${election.title}** has been concluded by an administrator.`)
+        .addFields(
+          { 
+            name: "👑 Prime Minister", 
+            value: results.primeMinister ? `${results.primeMinister.emoji} ${results.primeMinister.text} (${results.primeMinister.votes} votes)` : "None", 
+            inline: false 
+          },
+          { 
+            name: "🏛️ Ministers", 
+            value: results.ministers.length > 0 
+              ? results.ministers.map(m => `${m.emoji} ${m.text} (${m.votes} votes)`).join('\n')
+              : "None", 
+            inline: false 
+          },
+          { 
+            name: "📊 Total Votes", 
+            value: results.totalVotes.toString(), 
+            inline: true 
+          }
+        )
+        .setFooter({ text: "Chatmandu Nepal" })
+        .setTimestamp();
+
+      await interaction.channel.send({ embeds: [publicSummary] });
     } catch (error) {
       console.error('Error ending election:', error);
       await interaction.followUp({ 
