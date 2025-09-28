@@ -1,0 +1,12 @@
+{
+  "watch": ["src/"],
+  "ignore": [
+    "election_data.json",
+    "audit_*.json",
+    "*.log",
+    "node_modules/",
+    ".git/"
+  ],
+  "ext": "js,json",
+  "delay": 1000
+}

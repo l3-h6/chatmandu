@@ -1,0 +1,65 @@
+{
+  "elections": {
+    "election_1759010579290": {
+      "id": "election_1759010579290",
+      "title": "abc",
+      "description": "React with your preferred candidate's emoji to vote!",
+      "type": "candidate",
+      "candidates": [
+        {
+          "id": 1,
+          "userId": "563259207743438870",
+          "username": "ejjjjklr",
+          "displayName": "Zzz",
+          "emoji": "🔥",
+          "votes": 0
+        },
+        {
+          "id": 2,
+          "userId": "1410685210634227794",
+          "username": "kwek12_01360",
+          "displayName": "kwek",
+          "emoji": "<:bolt:1362825080832266441>",
+          "votes": 0
+        }
+      ],
+      "startTime": "2025-09-27T22:02:59.290Z",
+      "endTime": "2025-09-27T23:02:59.290Z",
+      "status": "active",
+      "totalVotes": 0,
+      "voters": [],
+      "voteHistory": []
+    },
+    "election_1759010629875": {
+      "id": "election_1759010629875",
+      "title": "abc",
+      "description": "React with your preferred candidate's emoji to vote!",
+      "type": "candidate",
+      "candidates": [
+        {
+          "id": 1,
+          "userId": "1410685210634227794",
+          "username": "kwek12_01360",
+          "displayName": "kwek",
+          "emoji": "🔥",
+          "votes": 0
+        },
+        {
+          "id": 2,
+          "userId": "563259207743438870",
+          "username": "ejjjjklr",
+          "displayName": "Zzz",
+          "emoji": "<:bolt:1362825080832266441>",
+          "votes": 0
+        }
+      ],
+      "startTime": "2025-09-27T22:03:49.875Z",
+      "endTime": "2025-09-28T22:03:49.875Z",
+      "status": "active",
+      "totalVotes": 0,
+      "voters": [],
+      "voteHistory": []
+    }
+  },
+  "voteLog": {}
+}
